@@ -324,7 +324,7 @@ function SyncConfigModal(props: { onClose?: () => void }) {
                     />,
                 ]}
             >
-                <List>
+                {/* <List>
                     <ListItem
                         title={Locale.Settings.Sync.Config.SyncType.Title}
                         subTitle={Locale.Settings.Sync.Config.SyncType.SubTitle}
@@ -376,7 +376,7 @@ function SyncConfigModal(props: { onClose?: () => void }) {
                             ></input>
                         </ListItem>
                     ) : null}
-                </List>
+                </List> */}
 
                 {syncStore.provider === ProviderType.WebDAV && (
                     <>
