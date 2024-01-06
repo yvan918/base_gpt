@@ -380,7 +380,7 @@ function SyncConfigModal(props: { onClose?: () => void }) {
 
                 {syncStore.provider === ProviderType.WebDAV && (
                     <>
-                        <List>
+                        {/* <List>
                             <ListItem title={Locale.Settings.Sync.Config.WebDav.Endpoint}>
                                 <input
                                     type="text"
@@ -417,7 +417,7 @@ function SyncConfigModal(props: { onClose?: () => void }) {
                                     }}
                                 ></PasswordInput>
                             </ListItem>
-                        </List>
+                        </List> */}
                     </>
                 )}
 
